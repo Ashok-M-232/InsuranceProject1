@@ -1,0 +1,29 @@
+/* PopupModal.css */
+
+.popup-modal {
+  height: auto;
+  width: 30%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(227, 228, 254);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 1);
+  z-index: 9999;
+}
+
+.forMsg {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+
+
+/* Add any additional styling as needed */

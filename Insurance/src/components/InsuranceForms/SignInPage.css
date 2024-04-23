@@ -1,0 +1,28 @@
+/* Updated error message style */
+.Mpg {
+  background-color: rgba(83, 107, 136, 0.484);
+}
+
+.error1-message1 {
+  color: red;
+  
+  text-align: center;
+  font-size: 14px;
+}
+.fcontainer{
+  border-radius: 15px;
+  margin-bottom: 12px;
+  background-color: rgba(11, 69, 113, 0.233);
+}
+.form-group1 {
+  display: flex;
+}
+
+.form-group1 .form-group1Input {
+  margin-left: auto;
+}
+
+.btn-success {
+  border-radius: 8px;
+}
+

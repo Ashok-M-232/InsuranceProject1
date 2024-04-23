@@ -1,0 +1,98 @@
+/* LoginForm.css */
+.lg22 {
+  max-width: 50%;
+  margin-top:12% ;
+  margin-left: 30%;
+  padding: 3%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+/* Media Queries for responsiveness */
+
+/* For screens smaller than 576px (phones) */
+@media (max-width: 575.98px) {
+  .lg22 {
+    margin-top: -15%;
+    height: 150%;
+    max-width: 40%; /* Adjust the width for smaller screens */
+    margin-left: 55%;
+  }
+  .lg2 .h3font{
+    font-size: 12px;
+  }
+  .lg2 .lblp{
+    font-size: 10px;
+  }
+  .lg2 .smaller-text{
+    font-size: 8px;
+  }
+  }
+  .lg2 .smaller-button1{
+    font-size: 8px; /* Adjust the font size as needed */
+  padding: 1px 5px;
+  }
+
+
+/* For screens between 576px and 767px (small tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .lg22 {
+    margin-top: -15%;
+    height: 150%;
+    max-width: 45%; /* Adjust the width for smaller screens */
+    margin-left: 65%;
+  }
+  .lg2 .h3font{
+    font-size: 14px;
+  }
+  .lg2 .lblp{
+    font-size: 12px;
+  }
+  .lg2 .smaller-text{
+    font-size: 10px;
+  }
+  }
+  .lg2 .smaller-button1{
+    font-size: 8px; /* Adjust the font size as needed */
+  padding: 1px 5px;
+  }
+
+/* For screens between 768px and 991px (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .lg22 {
+    height: 45%;
+    max-width: 60%; /* Adjust the width for smaller screens */
+    margin-left:15%;
+  }
+  .lg2 .h3font{
+    font-size: 14px;
+  }
+  .lg2 .lblp{
+    font-size: 12px;
+  }
+  .lg2 .smaller-text{
+    font-size: 10px;
+  }
+  }
+  .lg2 .smaller-button1{
+    font-size: 8px; /* Adjust the font size as needed */
+  padding: 1px 5px;
+  
+}
+
+/* For screens 992px and larger (desktops) */
+@media (min-width: 992px) {
+  .lg22 {
+    max-width: 50%;
+    margin-top:12% ;
+    margin-left: 30%;
+    padding: 3%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}

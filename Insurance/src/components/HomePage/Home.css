@@ -1,0 +1,142 @@
+/* Home.css */
+.background{
+  background-color: rgb(225, 235, 251);
+}
+
+
+.top {
+  padding: 10px;
+  background: #38779b;
+  color: #fff;
+  display: flex;
+}
+
+.top h2 {
+  margin-left: 1%;
+}
+
+.ramanaSoftImage {
+  margin-top: 5px;
+  margin-left: 7%;
+  height: 2%;
+  width: 3%;
+}
+
+.forbtn {
+  margin-left: auto;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+
+.LopLgin {
+  width: 1500px;
+  background-image: url('../Images/Property-Insurance\ \(1\).jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+
+
+@media (max-width: 767px) {
+  .top {
+    display: flex;
+  }
+  .top h2 {
+    font-size: 20px;
+    margin-top: 0.5%;
+    margin-left:3%;
+  }
+
+  .ramanaSoftImage {
+    margin-top: 7px;
+    margin-left: 10%;
+    height: 3%;
+    width: 4%;
+  }
+  
+  .forbtn {
+    margin-left: auto;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+  }
+
+  .LopLgin {
+    flex-direction: column;
+  }
+  .lgabout{
+    margin-top: -81%;
+  }
+}
+
+/* For screens between 768px and 1023px (tablets) */
+@media (min-width: 668px) and (max-width: 767px) {
+  .top h2 {
+    
+    font-size: 1.5em;
+ 
+  }
+  .lgabout{
+    margin-top: -42%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 868px) {
+  .top h2 {
+    
+    font-size: 1.5em;
+ 
+  }
+  .lgabout{
+    margin-top: -37%;
+  }
+}
+
+
+@media (min-width: 869px) and (max-width: 968px) {
+  .top h2 {
+    
+    font-size: 1.5em;
+ 
+  }
+  .lgabout{
+    margin-top: -31%;
+  }
+}
+
+
+@media (min-width: 969px) and (max-width: 1023px) {
+  .top h2 {
+    
+    font-size: 1.5em;
+ 
+  }
+  .lgabout{
+    margin-top: -24%;
+  }
+}
+
+@media (min-width: 1069px) and (max-width: 1023px) {
+  .top h2 {
+    
+    font-size: 1.5em;
+ 
+  }
+  .lgabout{
+    margin-top: -16%;
+  }
+}
+
+/* For screens 1024px and larger (desktops) */
+@media (min-width: 1024px) {
+  .top h2 {
+    font-size: 2em;
+    .lgabout{
+      margin-top: -11%;
+    }
+  }
+}

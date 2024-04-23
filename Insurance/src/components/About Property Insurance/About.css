@@ -1,0 +1,43 @@
+/* About.css */
+.bgnd{
+  background-color: rgb(225, 235, 251);
+}
+
+.AboutTop .AboutBody2 {
+    width: 85%;
+    align-items: center;
+    height: auto;
+  }
+  .AboutTop {
+    position: relative;
+  }
+  
+  
+  .AboutBody {
+    padding: 20px;
+  }
+   
+  
+  .head {
+    color: #070fa7;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .forPicture{
+    display: flex;
+  }
+  .AtText{
+    height: 100%;
+    width: 60%;
+  }
+
+  /* Additional styling for specific elements or sections can be added as needed */
+  

@@ -1,0 +1,101 @@
+/* TotalInfo.css */
+
+.org12 .h2{
+  padding: 10px;
+  font-size: 38px;
+  color: rgb(153, 157, 171);
+  background-color: #002348;
+}
+.org12 .h2 h2{
+ 
+  text-align: center;
+  color: white;
+  background-color: #002348;
+}
+.org12 .fortableclsh3{
+font-size: 25px;
+  border-radius: 5px;
+  padding: 5px 10px ;
+  font-size: 38px;
+  color: #002348;
+  ;
+}
+
+
+.forDispFlex {
+  margin: 50px;
+  display: flex;
+}
+
+.fortablecls {
+  width: 16%;
+  margin-right: 20px;
+}
+
+.fortable {
+  border-collapse: collapse;
+  background-color: #e8f0fa;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.forinner11 {
+  width: 75%;
+  padding: 2px;
+  background-color: #e8f0fa;
+  border-radius: 5px;
+}
+
+.tbfont {
+  font-weight: bold;
+  padding: 15px;
+  color: #002156;
+}
+
+.tbfont1 {
+  padding: 15px;
+  color: #5e6064;
+
+}
+
+.forinner11d {
+  width: 84%;
+}
+
+
+
+.form-group11 {
+  margin-bottom: 20px;
+}
+
+.form-group11Input {
+  margin-top: 10px;
+}
+
+.form-group11Input input,
+.form-group11Input select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdcdc; /* Light gray border */
+  border-radius: 5px;
+}
+
+.error-message11 {
+  margin-top: 5px;
+  color: #dc3545; /* Red error text */
+  text-align: center;
+}
+
+.btn-success {
+  background-color: #28a745; /* Green success button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+

@@ -1,0 +1,60 @@
+/* ListOfPolicies.css */
+
+.listOfPolicies {
+  width: 60%;
+  margin-top: 15%;
+  margin-left: 25%;
+  font-size: 25px;
+  padding: 2.2%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+/* Media Queries for responsiveness */
+
+/* For screens smaller than 576px (phones) */
+@media (max-width: 575.98px) {
+  .listOfPolicies {
+    max-width: 35%;
+    margin-top: 5%;
+    margin-left: 7%; /* Center the component vertically and adjust top margin */
+  }
+  .listOfPolicies h4{
+    font-size: 8px;
+  }
+}
+
+/* For screens between 576px and 767px (small tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .listOfPolicies {
+    max-width: 40%;
+    margin-top: 5%;
+    margin-left: 5%; /* Adjust top margin for smaller screens */
+  }
+  .listOfPolicies h4{
+    font-size: 10px;
+  }
+}
+
+/* For screens between 768px and 991px (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .listOfPolicies {
+    max-width: 65%; /* Adjust the width for larger tablets */
+    margin-top: 15%;
+    margin-left: 25%; /* Adjust top margin for tablets */
+  }
+  .listOfPolicies h4{
+    font-size: 14px;
+  }
+}
+
+/* For screens 992px and larger (desktops) */
+@media (min-width: 992px) {
+  .listOfPolicies {
+    max-width: 60%; /* Adjust the width for larger screens */
+    margin-top: 15%;
+    font-size: 25px;
+    margin-left: 25%; /* Adjust top margin for larger screens */
+  }
+}
+
