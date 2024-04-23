@@ -1,0 +1,142 @@
+package com.insurance.www.entity;
+
+
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToOne;
+import jakarta.persistence.SequenceGenerator;
+import jakarta.persistence.Table;
+
+@Entity
+@Table
+public class UserPropertyDetailsEntity {
+	
+	@Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "policy_sequence")
+    @SequenceGenerator(name = "policy_sequence", sequenceName = "policy_sequence", initialValue = 1, allocationSize = 1)
+    private int id;
+	
+	@Column
+	private long currentMarketValue;
+	
+	@Column
+	
+    private int carpetArea;
+	
+	@Column
+    private int pincode;
+	
+	@Column
+    private int buildingAge;
+    
+	@Column
+	private String propertyEffect;
+    
+	@Column
+	private String security24x7;
+    
+	@Column
+	private String isSalaried;
+	
+	@Column
+	private long premium;
+	
+//	@Column
+//    private Long mobile; // Add a mobile field
+    
+//    public Long getMobile() {
+//		return mobile;
+//	}
+//
+//
+//	public void setMobile(Long mobile) {
+//		this.mobile = mobile;
+//	}
+//
+//	@OneToOne
+//    @JoinColumn(name = "mobile", referencedColumnName = "mobile")
+//    private User user;
+//    
+//    // Getters and setters
+//    
+//    // Method to set mobile and user object
+//    public void setUserAndMobile(User user) {
+//        this.user = user;
+//        this.mobile = user.getMobile(); // Set mobile from the User object
+//    }
+//	
+	
+	
+
+	public long getCurrentMarketValue() {
+		return currentMarketValue;
+	}
+
+	public void setCurrentMarketValue(long currentMarketValue) {
+		this.currentMarketValue = currentMarketValue;
+	}
+
+	public int getCarpetArea() {
+		return carpetArea;
+	}
+
+	public void setCarpetArea(int carpetArea) {
+		this.carpetArea = carpetArea;
+	}
+
+	public int getPincode() {
+		return pincode;
+	}
+
+	public void setPincode(int pincode) {
+		this.pincode = pincode;
+	}
+
+	public int getBuildingAge() {
+		return buildingAge;
+	}
+
+	public void setBuildingAge(int buildingAge) {
+		this.buildingAge = buildingAge;
+	}
+
+	public String getPropertyEffect() {
+		return propertyEffect;
+	}
+
+	public void setPropertyEffect(String propertyEffect) {
+		this.propertyEffect = propertyEffect;
+	}
+
+	public String getSecurity24x7() {
+		return security24x7;
+	}
+
+	public void setSecurity24x7(String security24x7) {
+		this.security24x7 = security24x7;
+	}
+
+	public String getIsSalaried() {
+		return isSalaried;
+	}
+
+	public void setIsSalaried(String isSalaried) {
+		this.isSalaried = isSalaried;
+	}
+
+	public long getPopupMessage() {
+		return premium;
+	}
+
+	public void setPopupMessage(long popupMessage) {
+		this.premium = popupMessage;
+	}
+
+	
+
+}

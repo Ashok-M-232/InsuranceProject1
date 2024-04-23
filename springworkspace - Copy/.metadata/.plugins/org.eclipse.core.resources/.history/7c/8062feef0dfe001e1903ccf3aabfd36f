@@ -1,0 +1,46 @@
+package com.insurance.www.controller;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.insurance.www.Service.UserAddressService;
+import com.insurance.www.entity.UserAddressEntity;
+
+@RestController
+@RequestMapping("/api/user-address")
+public class UserAddressController {
+
+    private final UserAddressService userAddressService;
+
+    @Autowired
+    public UserAddressController(UserAddressService userAddressService) {
+        this.userAddressService = userAddressService;
+    }
+    
+    @PostMapping("/add")
+    public ResponseEntity<UserAddressEntity> createUserAddress(@RequestBody UserAddressEntity userAddress) {
+        UserAddressEntity savedAddress = userAddressService.createUserAddress(userAddress);
+        return new ResponseEntity<>(savedAddress, HttpStatus.CREATED);
+    }
+
+    @GetMapping
+    public List<UserAddressEntity> getAllUserAddresses() {
+        return userAddressService.getAllUserAddresses();
+    }
+
+    @GetMapping("/{id}")
+    public Optional<UserAddressEntity> getUserAddressById(@PathVariable Long id) {
+        return userAddressService.getUserAddressById(id);
+    }
+
+}

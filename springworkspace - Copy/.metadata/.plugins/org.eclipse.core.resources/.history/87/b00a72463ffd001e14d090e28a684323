@@ -1,0 +1,124 @@
+package com.insurance.www.entity;
+
+
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
+import jakarta.persistence.Table;
+
+@Entity
+@Table
+public class UserPropertyDetailsEntity {
+	
+	@Id
+	private Long mobile; // Add a mobile field
+	
+	@Column
+	private long currentMarketValue;
+	
+	@Column
+	
+    private int carpetArea;
+	
+	@Column
+    private int pincode;
+	
+	@Column
+    private int buildingAge;
+    
+	@Column
+	private String propertyEffect;
+    
+	@Column
+	private String security24x7;
+    
+	@Column
+	private String isSalaried;
+	
+	@Column
+	private long premium;
+	
+	@Column
+    
+    public Long getMobile() {
+ 	return mobile;
+	}
+
+
+	public void setMobile(Long mobile) {
+		this.mobile = mobile;
+	}
+
+	
+
+	public long getCurrentMarketValue() {
+		return currentMarketValue;
+	}
+
+	public void setCurrentMarketValue(long currentMarketValue) {
+		this.currentMarketValue = currentMarketValue;
+	}
+
+	public int getCarpetArea() {
+		return carpetArea;
+	}
+
+	public void setCarpetArea(int carpetArea) {
+		this.carpetArea = carpetArea;
+	}
+
+	public int getPincode() {
+		return pincode;
+	}
+
+	public void setPincode(int pincode) {
+		this.pincode = pincode;
+	}
+
+	public int getBuildingAge() {
+		return buildingAge;
+	}
+
+	public void setBuildingAge(int buildingAge) {
+		this.buildingAge = buildingAge;
+	}
+
+	public String getPropertyEffect() {
+		return propertyEffect;
+	}
+
+	public void setPropertyEffect(String propertyEffect) {
+		this.propertyEffect = propertyEffect;
+	}
+
+	public String getSecurity24x7() {
+		return security24x7;
+	}
+
+	public void setSecurity24x7(String security24x7) {
+		this.security24x7 = security24x7;
+	}
+
+	public String getIsSalaried() {
+		return isSalaried;
+	}
+
+	public void setIsSalaried(String isSalaried) {
+		this.isSalaried = isSalaried;
+	}
+
+	public long getPopupMessage() {
+		return premium;
+	}
+
+	public void setPopupMessage(long popupMessage) {
+		this.premium = popupMessage;
+	}
+
+	
+
+}
